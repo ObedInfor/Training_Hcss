@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@500&family=Roboto+Condensed:ital,wght@0,800;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: 0;
+}
+
+.header-home {
+    background-color: #faf8f4;
+    position: relative;
+}
+
+/*--Menu--*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header .logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    margin-left: 60px ;
+}
+ .menu-link a {
+    margin:  0 10px;
+    font-size: 15px;
+    color: #999;
+ }
+
+ .buttons-link a {
+    margin-left: 15px;
+ }
+ .buttons-link a:first-child {
+    color: #f26440;
+ }
+
+ .menu-link a:first-child {
+    color: #f26440;
+ }
+
+
+ .orange-link {
+    color: #fff;
+    padding: 8px 30px;
+    background-color: #f26440;
+    border-radius: 4px;
+    text-transform: capitalize;
+ }
+
